@@ -1,0 +1,420 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+.header-container{
+    width: 100%;
+    height: 640px;
+    background-color :#FFE4E1;
+}
+.hero-container{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 12px;
+}
+.btn-start{
+    background-color: #FC3F26;
+    border-radius: 3px;
+    width: 123px;
+    height: 44px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Muli;
+    margin-left: 10px;
+}
+.c-nav .navbar-nav a{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Muli;
+}
+/* navigation style end  */
+.header-container .hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+}
+.header-container .hero-content .content-left{
+    width: 50%;
+    height: 500px;
+}
+.header-container .hero-content .content-right{
+    width: 50%;
+    
+}
+.header-container .hero-content .content-right .img-div{
+    background-image: url(/images/chat-hero-1.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.header-container .hero-content .content-left .content-div{
+    padding: 60px;
+}
+.header-container .hero-content .content-left .content-div h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 56px;
+    font-family: Muli;
+}
+.header-container .hero-content .content-left .content-div p{
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Muli;
+    opacity: 75%;
+}
+.header-container .hero-content .content-left .content-div .email-div input{
+    width: 280px;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+
+}
+.header-container .hero-content .content-left .content-div .email-div p{
+    color: #000;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Muli;
+    opacity: 50%;
+    
+}
+
+/* ============= hero style end ============ */
+.combine-all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 606px;
+}
+.combine-all .inner-div{
+    width: 100%;
+}
+.combine-all .inner-div h6{
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Muli;
+    text-align: center;
+}
+.combine-all .inner-div p{
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Muli;
+    text-align: center;
+    opacity: 70%;
+}
+.combine-all .inner-div .media-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.combine-all .inner-div .media-div h6{
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Muli;
+    text-align: center;
+}
+.combine-all .inner-div .media-div p{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Muli;
+    text-align: center;
+    opacity: 70%;
+}
+.combine-all .inner-div .media-div a{
+    color: #FC3F26;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Muli;
+    text-align: center;
+  
+}
+.combine-all .inner-div .media-div .chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 241px;
+}
+.combine-all .inner-div .media-div .chat .icon{
+    margin-bottom: 15px;
+}
+.combine-all .inner-div .media-div .chat .icon img{
+    width: 80px;
+}
+/* ======== combine section End ========= */
+.services{
+ width: 960px;
+ height: 341px;
+ background-color: #FEFCF4;
+ margin: auto;
+ display: flex;
+ padding-top:40px;
+}
+.services .service-left{
+  width: 30%;
+
+}
+.services .service-left h6{
+    color: #000;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: Muli;
+    text-align: center;
+}
+.services .service-right{
+    width: 70%;
+}
+.services .service-right p{
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Muli;
+}
+.services .service-right .navigation ul{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 50px;
+    width: 280px;
+}
+.services .service-right .navigation ul li{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Muli;
+}
+.services .navigation{
+  display: flex;
+
+}
+
+/* ================= Our service css End =============== */
+
+.why-service{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    height: 283px;
+}
+.why-service .icon-div{
+    width: 321px;
+    padding: 30px;
+}
+.why-service .icon-div img{
+    width: 80px;
+    padding-bottom: 15px;
+}
+.why-service .icon-div p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.why-service .why{
+    width: 420px;  
+}
+.why-service .why span{
+    font-size: 48px;
+    font-weight: 400;
+    color: #000;
+}
+.why-service .why h6{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
+/* =================== .why-service css End ================== */
+
+.medi-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.medi-div .pro-div{
+    width: 340px;
+    padding: 15px;
+}
+.medi-div .pro-div .client{
+    display: -webkit-box;
+}
+.medi-div .pro-div .client img{
+    padding-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+.medi-div .pro-div p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    opacity: inherit;
+}
+.medi-div .pro-div .profile-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.medi-div .pro-div .profile-div .img{
+    width: 64px;
+    height: 64px;
+    background: blue;
+    border-radius: 40px;
+    background-image: url(/images/chat-oval-1@2x.png);
+    background-size: cover;
+}
+.medi-div .pro-div .profile-div .img-content{
+    padding-left: 10px;
+}
+.medi-div .pro-div .profile-div .img-content h6{
+    text-align: left;
+    margin: 0px;
+    line-height: 0.7;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    
+}
+.medi-div .pro-div .profile-div .img-content p{
+    text-align: left;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FC3F26;
+
+}
+/* =============================== Client section End =========================== */
+.blog{
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.blog .blog-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog .blog-head a{
+    color: #FC3F26;
+    font-size: 16px;
+    font-weight: 700;
+}
+.blog .blog-head .from p span{
+    font-size: 36px;
+    font-weight: 400;
+    color: #000;
+}
+.blog .blog-head .from p{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-section {
+    width: 388px;
+    margin: 10px;
+}
+.card-section .card-img{
+    width: 388px;
+    height: 320px;
+    border-radius: 5px;
+    background-image: url(/images/article-rectangle-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+.card-section span{
+    color: #FC9126;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.card-section span img{
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+}
+.card-section p{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.card-section .p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+/* ====================== Blog section End ===================== */
+footer{
+    border-top: 1px solid gray;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+   padding-top: 40px;
+
+}
+.footer .footer-logo{
+    width: 20%;  
+}
+.footer .link{
+    width: 20%;  
+}
+.footer .link p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+ ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer .link ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer .company{
+    width: 20%;  
+}
+.footer .company p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer .company ul li{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer .social{
+    width: 20%;  
+}
+.footer .social img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.footer .social p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}

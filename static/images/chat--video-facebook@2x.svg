@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook">
+            <rect id="Rectangle" fill="#EDEDED" x="0" y="0" width="32" height="32" rx="3"></rect>
+            <path d="M16.9561496,25.4545455 L13.4089031,25.4545455 L13.4089031,17.0898533 L11.6363636,17.0898533 L11.6363636,14.2076611 L13.4089031,14.2076611 L13.4089031,12.4772899 C13.4089031,10.1261389 14.4092418,8.72727273 17.2531082,8.72727273 L19.6201068,8.72727273 L19.6201068,11.6105208 L18.1407327,11.6105208 C17.0336406,11.6105208 16.9604847,12.0132887 16.9604847,12.7649813 L16.9556077,14.2076611 L19.6363636,14.2076611 L19.3226063,17.0898533 L16.9556077,17.0898533 L16.9556077,25.4545455 L16.9561496,25.4545455 Z" id="Shape" fill="#3E3E3E"></path>
+        </g>
+    </g>
+</svg>
